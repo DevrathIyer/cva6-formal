@@ -48,7 +48,7 @@ module rvfi_testbench (
 	rvfi_wrapper wrapper (
 		.clk_i (clk_i),
 		.rst_ni (rst_ni),	
-		.rvfi_o (rvfi),
+		.rvfi_o (rvfi)
 		// EE282_TODO: Add insn field
 	);
 	
